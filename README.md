@@ -1,5 +1,5 @@
 # Code-Capsule-AI_NEXUS-
-Code Capsule
+Code Capsule fourm
 
 Welcome to Code Capsule — a space where coding meets creativity! 💻✨ This repository hosts all the coding challenges and mini-projects that help you sharpen your problem-solving skills and build real-world tech experience.
 
