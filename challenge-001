@@ -1,0 +1,45 @@
+Problem Title: Find Missing Number in Sequence
+
+Problem Description:
+Given a list of integers from 1 to n with one number missing, find the missing number.
+The list is unsorted and contains n-1 numbers where one number between 1 and n is missing.
+
+Example:
+Input: [3, 1, 4, 5]
+Output: 2
+Explanation: The sequence should be [1, 2, 3, 4, 5], and 2 is missing.
+
+Input: [1, 2, 3, 5, 6, 7]
+Output: 4
+Explanation: The sequence should be [1, 2, 3, 4, 5, 6, 7], and 4 is missing.
+
+Input: [2]
+Output: 1
+Explanation: The sequence should be [1, 2], and 1 is missing.
+
+Function Signature:
+def find_missing_number(nums: list[int]) -> int:
+    pass
+
+Constraints:
+- 1 <= len(nums) <= 10,000
+- nums contains n-1 unique integers where n = len(nums) + 1
+- Each integer in nums is in the range [1, n]
+- Only one number is missing from the sequence
+"""
+
+# Write your function here
+def find_missing_number(nums: list[int]) -> int:
+    pass
+
+
+# Test cases
+def run_tests():
+    assert find_missing_number([3, 1, 4, 5]) == 2
+    assert find_missing_number([1, 2, 3, 5, 6, 7]) == 4
+    assert find_missing_number([2]) == 1
+    assert find_missing_number([1, 2, 3, 4, 6, 7, 8]) == 5
+    assert find_missing_number([2, 3, 4, 5]) == 1
+    print("✅ All test cases passed!")
+
+run_tests()
